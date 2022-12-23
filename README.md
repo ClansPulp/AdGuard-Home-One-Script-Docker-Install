@@ -30,7 +30,7 @@ It also does not interrupt use of Apple's 'Private Relay' feature, whereas PiHol
 5. Click `Save`
 ### Edit Upstream DNS Servers
 
-<img src="https://github.com/ClansPulp/AdGuard-Home-One-Script-Docker-Install/blob/main/adguard_home/img/DNS%20Servers.jpg?raw=true" alt="Dashboard Example" width="600"/>
+<img src="https://github.com/ClansPulp/AdGuard-Home-One-Script-Docker-Install/blob/main/adguard_home/img/DNS%20Servers.jpg?raw=true" alt="DNS Servers Example" width="600"/>
 
 1. Navigate to `Settings` `>` `DNS Settings`
 2. In the text box, replace the defaults with the following, one per new line:
