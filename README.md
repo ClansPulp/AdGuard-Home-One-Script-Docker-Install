@@ -4,6 +4,9 @@ This repo was created to automate pulling and running the AdGuard Home docker co
 
 The AdGuard Home docker container is a DNS server to which you can implement ad, tracker, and malware blocking. It is similar to PiHole, but in my testing it comes out ahead.
 It also does not interrupt use of Apple's 'Private Relay' feature, whereas PiHole does. 
+
+<img src="https://github.com/ClansPulp/AdGuard-Home-One-Script-Docker-Install/blob/main/adguard_home/img/Dashboard.jpg?raw=true" alt="Dashboard Example" width="600"/>
+
 ## Requirements
 1. Linux VM, machine, Raspberry Pi, etc
 2. Network connectivity
@@ -26,6 +29,9 @@ It also does not interrupt use of Apple's 'Private Relay' feature, whereas PiHol
 4. Under `Statistics Configuration` enable and increase retention to `90 days`
 5. Click `Save`
 ### Edit Upstream DNS Servers
+
+<img src="https://github.com/ClansPulp/AdGuard-Home-One-Script-Docker-Install/blob/main/adguard_home/img/DNS%20Servers.jpg?raw=true" alt="Dashboard Example" width="600"/>
+
 1. Navigate to `Settings` `>` `DNS Settings`
 2. In the text box, replace the defaults with the following, one per new line:
       1. `https://doh.opendns.com/dns-query`
