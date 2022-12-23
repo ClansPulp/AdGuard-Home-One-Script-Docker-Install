@@ -13,7 +13,7 @@ It also does not interrupt use of Apple's 'Private Relay' feature, whereas PiHol
 3. Assign the Linux host a static IP address
 3. A device to access the GUI from (if using Linux device headless)
 ## Install
-1. Download the repo
+1. Download the repo or copoy the script contents into a new script on the Linux host
 2. Unzip the .ZIP `unzip download.zip`
 3. `cd` into the directory
 4. Run the install file with `sudo bash ./adhuard_home_setup.sh`
