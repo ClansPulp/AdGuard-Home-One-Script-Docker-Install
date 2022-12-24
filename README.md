@@ -2,6 +2,8 @@
 ## Description
 This repo was created to automate pulling and running the AdGuard Home docker container. It is already pretty simple, but now its one (very basic) shell script. You can even just copy and paste the script contents into a file on your Linux host and run it without pulling the repo.
 
+This can be serup on a local device like a Raspberry Pi or VM, or using a VM in AWS, GCP, Azure, Linode, etc.
+
 The AdGuard Home docker container is a DNS server to which you can implement ad, tracker, and malware blocking. It is similar to PiHole, but in my testing it comes out ahead.
 It also does not interrupt use of Apple's 'Private Relay' feature, whereas PiHole does. 
 
