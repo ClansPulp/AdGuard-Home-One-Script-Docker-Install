@@ -1,8 +1,8 @@
-sudo apt update
-sudo apt install curl -y
-sudo apt install docker.io -y
+apt update
+apt install curl -y
+apt install docker.io -y
 docker pull adguard/adguardhome
-sudo docker run --name adguardhome\
+docker run --name adguardhome\
     --restart unless-stopped\
     -v /my/own/workdir:/opt/adguardhome/work\
     -v /my/own/confdir:/opt/adguardhome/conf\
